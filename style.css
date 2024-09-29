@@ -1,0 +1,22 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.stButton button {
+    background-color: #310d4c;  /* Purple color for the grid buttons */
+    color: #e9e4e6 ;  /* Color for the X and O */
+    border: 1px solid #030006;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 120px ;  /* Increased font size significantly */
+    width: 200;
+    height: 100px;  /* Increased height to make them more square-like */
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    color: #0e0d0d;  /* Make sure the title is visible */
+    text-align: center;  /* Center-align the title for better visibility */
+}
