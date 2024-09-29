@@ -21,5 +21,6 @@ This is a simple Tic Tac Toe game implemented using Python and Streamlit. The pr
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <[repository-url](https://github.com/arshia-pelathur/Tic-Tac-Toe.git)>
+   git clone https://github.com/arshia-pelathur/Tic-Tac-Toe.git
+
 
