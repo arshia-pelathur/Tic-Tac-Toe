@@ -30,7 +30,7 @@ for row in range(3):
                     # Update the session state to reflect user's move
                     st.session_state.game = game
                     st.session_state.is_user_turn = False  # User's turn is over
-                    st.experimental_rerun()  # Rerun to reflect the user's move
+                    st.rerun()  # Rerun to reflect the user's move
 
 # After the user's move, AI makes a move if the game is not over and it is AI's turn
 if not game.current_winner and not game.is_draw() and not st.session_state.is_user_turn:
@@ -40,7 +40,7 @@ if not game.current_winner and not game.is_draw() and not st.session_state.is_us
         game.make_move(ai_row, ai_col, "O")
         st.session_state.game = game
         st.session_state.is_user_turn = True  # AI's turn is over, user's turn next
-        st.experimental_rerun()  # Rerun to reflect the AI's move
+        st.rerun()  # Rerun to reflect the AI's move
 
 # Display winner or game status
 if game.current_winner:
@@ -55,4 +55,4 @@ if st.button("Restart Game"):
     del st.session_state["game"]
     del st.session_state["is_user_turn"]
     # Rerun the application to reflect the reset state
-    st.experimental_rerun()
+    st.rerun()
