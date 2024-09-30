@@ -23,4 +23,7 @@ This is a simple Tic Tac Toe game implemented using Python and Streamlit. The pr
    ```bash
    git clone https://github.com/arshia-pelathur/Tic-Tac-Toe.git
 
+## Deployed web app
+https://tic-tac-toegit-2bhjjnqbyptmrxqdpwq8ef.streamlit.app/
+
 
