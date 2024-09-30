@@ -26,8 +26,4 @@ This is a simple Tic Tac Toe game implemented using Python and Streamlit. The pr
 ## Deployed web app
 https://tic-tac-toegit-2bhjjnqbyptmrxqdpwq8ef.streamlit.app/
 
-## Demo of the Web app
-![Demo]("https://github.com/arshia-pelathur/Tic-Tac-Toe/blob/main/demo.webm")
-
-
 
