@@ -26,4 +26,10 @@ This is a simple Tic Tac Toe game implemented using Python and Streamlit. The pr
 ## Deployed web app
 https://tic-tac-toegit-2bhjjnqbyptmrxqdpwq8ef.streamlit.app/
 
+## Demo of the Web app
+<video controls width="640" height="360">
+  <source src="https://github.com/arshia-pelathur/Tic-Tac-Toe/blob/main/demo.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
+
 
